@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lista_canciones/config/app_theme.dart';
 import 'package:lista_canciones/presentation/screens/homeScreens.dart';
 
 void main() {
@@ -11,6 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: AppTheme(selectedColor: 2).themeData(),
       home: Home(),
     );
   }
