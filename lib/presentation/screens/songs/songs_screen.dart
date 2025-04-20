@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lista_canciones/presentation/screens/screens.dart';
+import 'add_songs.dart';
+import 'list_songs.dart';
 
 class SongsScreen extends StatefulWidget {
   const SongsScreen({super.key});
