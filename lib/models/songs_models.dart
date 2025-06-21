@@ -22,6 +22,7 @@ class SongsModels {
         duration: json['duration'] ?? 0,
         title: json['title'] ?? "No title",
       );
+<<<<<<< HEAD
 
   Map<String, dynamic> toJson() => {
         'title': title,
@@ -31,4 +32,6 @@ class SongsModels {
         'track_cid': track_cid,
         'duration': duration,
       };
+=======
+>>>>>>> 8e659cdf7326b11699fe4f238ff95a0b2917d372
 }
